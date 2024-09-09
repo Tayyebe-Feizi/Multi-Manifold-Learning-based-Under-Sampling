@@ -1,12 +1,10 @@
-# Multi-Manifold-Learning-based-Under-Sampling
-A multi-manifold learning based instance weighting and under-sampling for imbalanced data classification problems
-
 imbalanced learning is one of the main challenges of classification in real world problems. 
 This challenge occurs when the number of examples of the majority class is more than the number of examples of the minority class.
 Fraud detection, image segmentation, network intrusion detection, disease detection, etc. are all imbalanced problems.
 Therefore, the approach of this research can be used in real world problems.
 
-If you are interested in imbalanced learning,you can improve the proposed approach and use its results in your research or in real-world problems.
+If you are interested in imbalanced learning, 
+you can improve the proposed approach and use its results in your research or in real-world problems.
 
 
 Under-sampling is a technique to overcome imbalanced class problem, however, 
