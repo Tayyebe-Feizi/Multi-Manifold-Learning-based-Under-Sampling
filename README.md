@@ -24,15 +24,12 @@ A gradual elimination approach is proposed, which tries to balance the classes w
 <p align="center">
   <img src="3.jpg" >
   <br>
-  <em>Figure 1: The logic of the proposed multi-manifold learning method based on the weighting of linear manifolds.</em>
-</p>
+ </p>
 
 <p align="center">
   <img src="5.jpg" style="width:500px;">
   <br>
-  <em>Figure 2: Data distribution of Ecoli1, and Glass0 in three modes, original data, single manifold under-sampling
-method and the proposed multi manifold approach. Red dots denote the majority class ‎‎.</em>
-</p>
+ </p>
 
 
 To run the simulation of this research, you must first install the Matlab toolbox for dimensionality reduction 
