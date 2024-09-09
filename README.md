@@ -27,7 +27,7 @@ A gradual elimination approach is proposed, which tries to balance the classes w
  </p>
 
 <p align="center">
-  <img src="5.jpg" style="width:500px;">
+  <img src="5.jpg" ">
   <br>
  </p>
 
