@@ -46,4 +46,4 @@ If you find Multi-Manifold-Learning-based-Under-Sampling useful in your research
 A Multi-Manifold Learning Based Instance Weighting and Under-Sampling for Imbalanced Data Classification Problems,
 T Feizi, MH Moattar, H Tabatabaee, Journal of Big Data, 2023. 10 (1), 153
 
-[Link to the paper](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-023-00832-2#citeas)
+[Link to the paper](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-023-00832-2#auth-Mohammad_Hossein-Moattar-Aff1)
