@@ -1,3 +1,5 @@
+# Multi-Manifold-Learning-based-Under-Sampling
+
 imbalanced learning is one of the main challenges of classification in real world problems. 
 This challenge occurs when the number of examples of the majority class is more than the number of examples of the minority class.
 Fraud detection, image segmentation, network intrusion detection, disease detection, etc. are all imbalanced problems.
@@ -17,6 +19,22 @@ Therefore, this paper proposes an ensemble of manifold learning approaches and e
 Having computed the optimality score of each manifold, the centrality and marginality degrees of samples are computed on the manifolds and weighted by the corresponding score.
 A gradual elimination approach is proposed, which tries to balance the classes while avoiding a drop in the F-measure on the validation dataset.
 
+## Figures
+
+<p align="center">
+  <img src="3.jpg" >
+  <br>
+  <em>Figure 1: The logic of the proposed multi-manifold learning method based on the weighting of linear manifolds.</em>
+</p>
+
+<p align="center">
+  <img src="5.jpg" style="width:500px;">
+  <br>
+  <em>Figure 2: Data distribution of Ecoli1, and Glass0 in three modes, original data, single manifold under-sampling
+method and the proposed multi manifold approach. Red dots denote the majority class ‎‎.</em>
+</p>
+
+
 To run the simulation of this research, you must first install the Matlab toolbox for dimensionality reduction 
 via https://lvdmaaten.github.io/drtoolbox/.
 In this research, the dimension reduction toolbox was used only for unsupervised linear mapping of imbalanced data,
@@ -25,10 +43,10 @@ Then run the under_sampling_program.m file.
 For each specific dataset, you should run the command to load it and after under-sampling,
 see the performance criteria by classification.
 
-
+## Citation
 If you find Multi-Manifold-Learning-based-Under-Sampling useful in your research, please consider citing our paper:
 
 A Multi-Manifold Learning Based Instance Weighting and Under-Sampling for Imbalanced Data Classification Problems,
 T Feizi, MH Moattar, H Tabatabaee, Journal of Big Data, 2023. 10 (1), 153
 
-https://journalofbigdata.springeropen.com/articles/10.1186/s40537-023-00832-2#citeas
+[Link to the paper] (https://journalofbigdata.springeropen.com/articles/10.1186/s40537-023-00832-2#citeas)
