@@ -2,7 +2,7 @@
 
 # Multi-Manifold-Learning-based-Under-Sampling
 <p align="center">
-    <img src="im_data1.jpg" alt="NLP3" width="500" height="400">
+    <img src="im_data1.jpg" alt="NLP3" width="500" height="500">
 </p>
 
 ## Applications
@@ -13,19 +13,17 @@ Therefore, the approach of this research can be used in real world problems.
 - If you are interested in imbalanced learning,you can improve the proposed approach and use its results in your research or in real-world problems.
 
 ## Overview
-Under-sampling is a technique to overcome imbalanced class problem, however, selecting the instances to be dropped and measuring their informativeness is an important concern. This project tries to bring up a new point of view in this regard and exploit the structure of data to decide on the importance of the data points.For this purpose, a multi-manifold learning approach is proposed. Manifolds represent the underlying structures of data and can help extract the latent space for data distribution.However, there is no evidence that we can rely on a single manifold to extract the local neighborhood of the dataset.
-Therefore, this project proposes an ensemble of manifold learning approaches and evaluates each manifold based on an information loss-based heuristic. 
-Having computed the optimality score of each manifold, the centrality and marginality degrees of samples are computed on the manifolds and weighted by the corresponding score. A gradual elimination approach is proposed, which tries to balance the classes while avoiding a drop in the F-measure on the validation dataset.
+Under-sampling is a technique to overcome imbalanced class problem, however, selecting the instances to be dropped and measuring their informativeness is an important concern. This project tries to bring up a new point of view in this regard and exploit the structure of data to decide on the importance of the data points.For this purpose, a multi-manifold learning approach is proposed. Manifolds represent the underlying structures of data and can help extract the latent space for data distribution. However, there is no evidence that we can rely on a single manifold to extract the local neighborhood of the dataset. Therefore, this project proposes an ensemble of manifold learning approaches and evaluates each manifold based on an information loss-based heuristic. Having computed the optimality score of each manifold, the centrality and marginality degrees of samples are computed on the manifolds and weighted by the corresponding score. A gradual elimination approach is proposed, which tries to balance the classes while avoiding a drop in the F-measure on the validation dataset.
 
 ## Figures
 
 <p align="center">
-  <img src="3.jpg" width="500" height="400" >
+  <img src="3.jpg" width="400" height="500" >
   <br>
  </p>
 
 <p align="center">
-  <img src="5.jpg"  width="500" height="400">
+  <img src="5.jpg"  width="400" height="500">
   <br>
  </p>
 
@@ -46,9 +44,9 @@ and the dimension reduction operation was not performed on the data.
 see the performance criteria by classification.
 
 ## Result
-- ** High performance:** The evaluation results of the approaches based on the average F-Measure show that the proposed multi-manifold approach has a better average  performance compared to other methods.
-- ** High scalability:** The efficiency of the proposed multi-manifold method is maintained for data with small and large number of samples, small and large number of features, low and large imbalance coefficient.
-- ** High robustness:** The efficiency of the proposed multi-manifold method is maintained with a very high imbalance coefficient.
+- **High performance:** The evaluation results of the approaches based on the average F-Measure show that the proposed multi-manifold approach has a better average  performance compared to other methods.
+- **High scalability:** The efficiency of the proposed multi-manifold method is maintained for data with small and large number of samples, small and large number of features, low and large imbalance coefficient.
+- **High robustness:** The efficiency of the proposed multi-manifold method is maintained with a very high imbalance coefficient.
 
 ## Citation
 If you use this code for your research, please cite the following paper:
