@@ -2,15 +2,15 @@
 
 # Multi-Manifold-Learning-based-Under-Sampling
 <p align="center">
-    <img src="im_data1.jpg" alt="NLP3" width="500" height="500">
+    <img src="im_data1.jpg" alt="NLP3" width="500" height="400">
 </p>
 
 ## Applications
-- **imbalanced learning is one of the main challenges of classification in real world problems. 
+- imbalanced learning is one of the main challenges of classification in real world problems. 
 This challenge occurs when the number of examples of the majority class is more than the number of examples of the minority class.
 Fraud detection, image segmentation, network intrusion detection, disease detection, etc. are all imbalanced problems.
 Therefore, the approach of this research can be used in real world problems.
-- **If you are interested in imbalanced learning,you can improve the proposed approach and use its results in your research or in real-world problems.
+- If you are interested in imbalanced learning,you can improve the proposed approach and use its results in your research or in real-world problems.
 
 ## Overview
 Under-sampling is a technique to overcome imbalanced class problem, however, selecting the instances to be dropped and measuring their informativeness is an important concern. This project tries to bring up a new point of view in this regard and exploit the structure of data to decide on the importance of the data points.For this purpose, a multi-manifold learning approach is proposed. Manifolds represent the underlying structures of data and can help extract the latent space for data distribution.However, there is no evidence that we can rely on a single manifold to extract the local neighborhood of the dataset.
@@ -20,12 +20,12 @@ Having computed the optimality score of each manifold, the centrality and margin
 ## Figures
 
 <p align="center">
-  <img src="3.jpg" width="400" >
+  <img src="3.jpg" width="500" height="400" >
   <br>
  </p>
 
 <p align="center">
-  <img src="5.jpg"  width="400">
+  <img src="5.jpg"  width="500" height="400">
   <br>
  </p>
 
@@ -33,22 +33,22 @@ Having computed the optimality score of each manifold, the centrality and margin
 The dataset used in this project is located in the data folder. These data are standard and used in other research.
  
 ## Installation and Setup
-- ** First, install MATLAB 2018 or higher version, then install the dimension reduction toolbox.
-- ** To run the simulation of this research, you must install the Matlab toolbox for dimensionality reduction 
+- First, install MATLAB 2018 or higher version, then install the dimension reduction toolbox.
+- To run the simulation of this research, you must install the Matlab toolbox for dimensionality reduction 
 via https://lvdmaaten.github.io/drtoolbox/.
-- **In this research, the dimension reduction toolbox was used only for unsupervised linear mapping of imbalanced data,
+- In this research, the dimension reduction toolbox was used only for unsupervised linear mapping of imbalanced data,
 and the dimension reduction operation was not performed on the data.
 
 ## How to run the code
-- **Then run the under_sampling_program.m file.
-- **The descriptions of the codes are placed separately in each file.
-- **For each specific dataset, you should run the command to load it and after under-sampling,
+- Run the under_sampling_program.m file.
+- The descriptions of the codes are placed separately in each file.
+- For each specific dataset, you should run the command to load it and after under-sampling,
 see the performance criteria by classification.
 
 ## Result
-- ** High performance: The evaluation results of the approaches based on the average F-Measure show that the proposed multi-manifold approach has a better average  performance compared to other methods.
-- ** High scalability: The efficiency of the proposed multi-manifold method is maintained for data with small and large number of samples, small and large number of features, low and large imbalance coefficient.
-- ** High robustness: The efficiency of the proposed multi-manifold method is maintained with a very high imbalance coefficient.
+- ** High performance:** The evaluation results of the approaches based on the average F-Measure show that the proposed multi-manifold approach has a better average  performance compared to other methods.
+- ** High scalability:** The efficiency of the proposed multi-manifold method is maintained for data with small and large number of samples, small and large number of features, low and large imbalance coefficient.
+- ** High robustness:** The efficiency of the proposed multi-manifold method is maintained with a very high imbalance coefficient.
 
 ## Citation
 If you use this code for your research, please cite the following paper:
