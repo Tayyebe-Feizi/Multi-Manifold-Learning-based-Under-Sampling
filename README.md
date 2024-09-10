@@ -2,7 +2,7 @@
 
 # Multi-Manifold-Learning-based-Under-Sampling
 <p align="center">
-    <img src="im_data1.jpg" alt="NLP3" width="500" height="500">
+    <img src="im_data1.jpg" alt="NLP3" width="600" height="375">
 </p>
 
 ## Applications
@@ -18,12 +18,12 @@ Under-sampling is a technique to overcome imbalanced class problem, however, sel
 ## Figures
 
 <p align="center">
-  <img src="3.jpg" width="400" height="500" >
+  <img src="3.jpg" width="800" height="400" >
   <br>
  </p>
 
 <p align="center">
-  <img src="5.jpg"  width="400" height="500">
+  <img src="5.jpg"  width="650" height="870">
   <br>
  </p>
 
