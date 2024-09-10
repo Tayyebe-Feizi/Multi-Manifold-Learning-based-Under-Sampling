@@ -6,11 +6,8 @@
 </p>
 
 ## Applications
-- imbalanced learning is one of the main challenges of classification in real world problems. 
-This challenge occurs when the number of examples of the majority class is more than the number of examples of the minority class.
-Fraud detection, image segmentation, network intrusion detection, disease detection, etc. are all imbalanced problems.
-Therefore, the approach of this research can be used in real world problems.
-- If you are interested in imbalanced learning,you can improve the proposed approach and use its results in your research or in real-world problems.
+- imbalanced learning is one of the most difficult categorization challenges in real-world applications. This problem comes when the majority class has more instances than the minority class. Fraud detection, image segmentation, network intrusion detection, disease diagnosis, and other similar challenges are all imbalanced. As a result, the approach developed in this study can be applied to real-world challenges.
+- If you are interested in imbalanced learning, you can refine the proposed approach and apply the results to your study or real-world issues.
 
 ## Overview
 Under-sampling is a technique to overcome imbalanced class problem, however, selecting the instances to be dropped and measuring their informativeness is an important concern. This project tries to bring up a new point of view in this regard and exploit the structure of data to decide on the importance of the data points.For this purpose, a multi-manifold learning approach is proposed. Manifolds represent the underlying structures of data and can help extract the latent space for data distribution. However, there is no evidence that we can rely on a single manifold to extract the local neighborhood of the dataset. Therefore, this project proposes an ensemble of manifold learning approaches and evaluates each manifold based on an information loss-based heuristic. Having computed the optimality score of each manifold, the centrality and marginality degrees of samples are computed on the manifolds and weighted by the corresponding score. A gradual elimination approach is proposed, which tries to balance the classes while avoiding a drop in the F-measure on the validation dataset.
@@ -49,7 +46,7 @@ see the performance criteria by classification.
 - **High robustness:** The efficiency of the proposed multi-manifold method is maintained with a very high imbalance coefficient.
 
 ## Citation
-If you use this code for your research, please cite the following paper:
+If you use this code in your research or projects, please cite the following paper:
 
 A Multi-Manifold Learning Based Instance Weighting and Under-Sampling for Imbalanced Data Classification Problems,
 T Feizi, MH Moattar, H Tabatabaee, Journal of Big Data, 2023. 10 (1), 153
